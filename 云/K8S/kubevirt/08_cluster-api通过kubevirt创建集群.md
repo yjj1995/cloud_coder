@@ -1,0 +1,1 @@
+[快速入门 - Cluster API 手册 (k8s.io)](https://cluster-api.sigs.k8s.io/user/quick-start.html)

@@ -1,5 +1,7 @@
 ## K8S可扩展性
 
+[如何从零开始编写一个 Kubernetes CRD | 云原生社区（中国） (cloudnative.to)](https://cloudnative.to/blog/kubernetes-crd-quick-start/)
+
 ### CRD&Controller 机制
 
 - 自己定义业务的CRD和实现Controller 来实现扩展

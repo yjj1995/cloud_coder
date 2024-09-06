@@ -2,13 +2,13 @@
 
 [yaml语法学习](https://www.jianshu.com/p/36f6acedf378)
 
+[Kubernetes（k8s） YAML文件详解 (qq.com)](https://mp.weixin.qq.com/s/Meh1EGG3HJPygiGxFfuTGg?version=4.1.26.6018&platform=win&nwr_flag=1#wechat_redirect)
+
 **Kubernetes 支持 YAML 和 JSON格式 管理资源对象**
 
 - **JSON** 格式：主要用于 api 接口之间消息的传递
 
 - YAML
-
-   
 
   格式：用于配置和管理，YAML是一种简洁的非标记性语言，内容格式人性化，较易读。
 
