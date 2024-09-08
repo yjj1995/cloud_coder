@@ -26,4 +26,4 @@ sudo ctr images tag my-source-image:latest my-target-image:v1.0
 sudo ctr images remove my-target-image:v1.0
 
 \#查看正在运行中的镜像
-ctr -n k8s.io containers list
+**ctr -n k8s.io containers list**
