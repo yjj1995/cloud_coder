@@ -17,6 +17,7 @@ sudo docker save -o pause-3.9.tar registry.k8s.io/pause:3.9
 sudo ctr -n k8s.io images import pause-3.9.tar
 
 \#查看镜像
+
 sudo ctr -n k8s.io images ls
 
 \#标记（Tag）镜像
