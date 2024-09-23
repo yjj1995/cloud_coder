@@ -2,6 +2,10 @@
 
 [如何从零开始编写一个 Kubernetes CRD | 云原生社区（中国） (cloudnative.to)](https://cloudnative.to/blog/kubernetes-crd-quick-start/)
 
+[使用kubebuilder开发operator详解 (podsbook.com)](https://podsbook.com/posts/kubernetes/operator/)
+
+[1.kubebuilder | CIT中国 (cit965.netlify.app)](https://cit965.netlify.app/docs/k8s-developer/kubebuilder/)
+
 ### CRD&Controller 机制
 
 - 自己定义业务的CRD和实现Controller 来实现扩展

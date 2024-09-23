@@ -1,1 +1,0 @@
-[【运维干货分享】Kubeconfig配置文件详解 (qq.com)](https://mp.weixin.qq.com/s/c13i0BTMBQQddsZIV8UMPw?version=4.1.26.6018&platform=win&nwr_flag=1#wechat_redirect)

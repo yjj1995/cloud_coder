@@ -21,10 +21,37 @@ sudo ctr -n k8s.io images import pause-3.9.tar
 sudo ctr -n k8s.io images ls
 
 \#标记（Tag）镜像
-sudo ctr images tag my-source-image:latest my-target-image:v1.0
+sudo ctr -n k8s.io  images tag my-source-image:latest my-target-image:v1.0
 
 \#删除镜像
-sudo ctr images remove my-target-image:v1.0
+sudo ctr -n k8s.io images remove my-target-image:v1.0
 
 \#查看正在运行中的镜像
 **ctr -n k8s.io containers list**
+
+# 清空配置
+
+```
+sudo ctr --namespace k8s.io image rm $(sudo ctr --namespace k8s.io image ls -q)
+
+sudo rm -rf /var/lib/containerd/io.containerd.grpc.v1.images/*
+sudo rm -rf /var/lib/containerd/io.containerd.grpc.v1.tasks/*
+sudo rm -rf /var/lib/containerd/io.containerd.runtime.v1.task/*
+sudo rm -rf /var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/*
+
+# 重新启动
+sudo systemctl restart containerd 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
